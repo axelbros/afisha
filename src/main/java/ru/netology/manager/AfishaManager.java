@@ -6,6 +6,9 @@ public class AfishaManager {
     private Film[] items = new Film[0];
     private int itemsToShow;
 
+    public AfishaManager() {
+           }
+
     public AfishaManager(int itemsToShow) {
         this.itemsToShow = itemsToShow;
     }
